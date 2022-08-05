@@ -170,87 +170,13 @@ check first 6 rows of our datafarames
 
 ``` r
   head(daily_activity)
-```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["Id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["ActivityDate"],"name":[2],"type":["chr"],"align":["left"]},{"label":["TotalSteps"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["TotalDistance"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["TrackerDistance"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["LoggedActivitiesDistance"],"name":[6],"type":["dbl"],"align":["right"]},{"label":["VeryActiveDistance"],"name":[7],"type":["dbl"],"align":["right"]},{"label":["ModeratelyActiveDistance"],"name":[8],"type":["dbl"],"align":["right"]},{"label":["LightActiveDistance"],"name":[9],"type":["dbl"],"align":["right"]},{"label":["SedentaryActiveDistance"],"name":[10],"type":["dbl"],"align":["right"]},{"label":["VeryActiveMinutes"],"name":[11],"type":["dbl"],"align":["right"]},{"label":["FairlyActiveMinutes"],"name":[12],"type":["dbl"],"align":["right"]},{"label":["LightlyActiveMinutes"],"name":[13],"type":["dbl"],"align":["right"]},{"label":["SedentaryMinutes"],"name":[14],"type":["dbl"],"align":["right"]},{"label":["Calories"],"name":[15],"type":["dbl"],"align":["right"]}],"data":[{"1":"1503960366","2":"4/12/2016","3":"13162","4":"8.50","5":"8.50","6":"0","7":"1.88","8":"0.55","9":"6.06","10":"0","11":"25","12":"13","13":"328","14":"728","15":"1985"},{"1":"1503960366","2":"4/13/2016","3":"10735","4":"6.97","5":"6.97","6":"0","7":"1.57","8":"0.69","9":"4.71","10":"0","11":"21","12":"19","13":"217","14":"776","15":"1797"},{"1":"1503960366","2":"4/14/2016","3":"10460","4":"6.74","5":"6.74","6":"0","7":"2.44","8":"0.40","9":"3.91","10":"0","11":"30","12":"11","13":"181","14":"1218","15":"1776"},{"1":"1503960366","2":"4/15/2016","3":"9762","4":"6.28","5":"6.28","6":"0","7":"2.14","8":"1.26","9":"2.83","10":"0","11":"29","12":"34","13":"209","14":"726","15":"1745"},{"1":"1503960366","2":"4/16/2016","3":"12669","4":"8.16","5":"8.16","6":"0","7":"2.71","8":"0.41","9":"5.04","10":"0","11":"36","12":"10","13":"221","14":"773","15":"1863"},{"1":"1503960366","2":"4/17/2016","3":"9705","4":"6.48","5":"6.48","6":"0","7":"3.19","8":"0.78","9":"2.51","10":"0","11":"38","12":"20","13":"164","14":"539","15":"1728"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
-``` r
   head(heart_rate)
-```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["Id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["Time"],"name":[2],"type":["chr"],"align":["left"]},{"label":["Value"],"name":[3],"type":["dbl"],"align":["right"]}],"data":[{"1":"2022484408","2":"4/12/2016 7:21:00 AM","3":"97"},{"1":"2022484408","2":"4/12/2016 7:21:05 AM","3":"102"},{"1":"2022484408","2":"4/12/2016 7:21:10 AM","3":"105"},{"1":"2022484408","2":"4/12/2016 7:21:20 AM","3":"103"},{"1":"2022484408","2":"4/12/2016 7:21:25 AM","3":"101"},{"1":"2022484408","2":"4/12/2016 7:22:05 AM","3":"95"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
-``` r
   head(hourly_calories)
-```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["Id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["ActivityHour"],"name":[2],"type":["chr"],"align":["left"]},{"label":["Calories"],"name":[3],"type":["dbl"],"align":["right"]}],"data":[{"1":"1503960366","2":"4/12/2016 12:00:00 AM","3":"81"},{"1":"1503960366","2":"4/12/2016 1:00:00 AM","3":"61"},{"1":"1503960366","2":"4/12/2016 2:00:00 AM","3":"59"},{"1":"1503960366","2":"4/12/2016 3:00:00 AM","3":"47"},{"1":"1503960366","2":"4/12/2016 4:00:00 AM","3":"48"},{"1":"1503960366","2":"4/12/2016 5:00:00 AM","3":"48"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
-``` r
   head(hourly_intensities)
-```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["Id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["ActivityHour"],"name":[2],"type":["chr"],"align":["left"]},{"label":["TotalIntensity"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["AverageIntensity"],"name":[4],"type":["dbl"],"align":["right"]}],"data":[{"1":"1503960366","2":"4/12/2016 12:00:00 AM","3":"20","4":"0.333333"},{"1":"1503960366","2":"4/12/2016 1:00:00 AM","3":"8","4":"0.133333"},{"1":"1503960366","2":"4/12/2016 2:00:00 AM","3":"7","4":"0.116667"},{"1":"1503960366","2":"4/12/2016 3:00:00 AM","3":"0","4":"0.000000"},{"1":"1503960366","2":"4/12/2016 4:00:00 AM","3":"0","4":"0.000000"},{"1":"1503960366","2":"4/12/2016 5:00:00 AM","3":"0","4":"0.000000"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
-``` r
   head(hourly_steps)
-```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["Id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["ActivityHour"],"name":[2],"type":["chr"],"align":["left"]},{"label":["StepTotal"],"name":[3],"type":["dbl"],"align":["right"]}],"data":[{"1":"1503960366","2":"4/12/2016 12:00:00 AM","3":"373"},{"1":"1503960366","2":"4/12/2016 1:00:00 AM","3":"160"},{"1":"1503960366","2":"4/12/2016 2:00:00 AM","3":"151"},{"1":"1503960366","2":"4/12/2016 3:00:00 AM","3":"0"},{"1":"1503960366","2":"4/12/2016 4:00:00 AM","3":"0"},{"1":"1503960366","2":"4/12/2016 5:00:00 AM","3":"0"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
-``` r
   head(sleep_day)
-```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["Id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["SleepDay"],"name":[2],"type":["chr"],"align":["left"]},{"label":["TotalSleepRecords"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["TotalMinutesAsleep"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["TotalTimeInBed"],"name":[5],"type":["dbl"],"align":["right"]}],"data":[{"1":"1503960366","2":"4/12/2016 12:00:00 AM","3":"1","4":"327","5":"346"},{"1":"1503960366","2":"4/13/2016 12:00:00 AM","3":"2","4":"384","5":"407"},{"1":"1503960366","2":"4/15/2016 12:00:00 AM","3":"1","4":"412","5":"442"},{"1":"1503960366","2":"4/16/2016 12:00:00 AM","3":"2","4":"340","5":"367"},{"1":"1503960366","2":"4/17/2016 12:00:00 AM","3":"1","4":"700","5":"712"},{"1":"1503960366","2":"4/19/2016 12:00:00 AM","3":"1","4":"304","5":"320"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
-``` r
   head(weight_log)
 ```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["Id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["Date"],"name":[2],"type":["chr"],"align":["left"]},{"label":["WeightKg"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["WeightPounds"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["Fat"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["BMI"],"name":[6],"type":["dbl"],"align":["right"]},{"label":["IsManualReport"],"name":[7],"type":["lgl"],"align":["right"]},{"label":["LogId"],"name":[8],"type":["dbl"],"align":["right"]}],"data":[{"1":"1503960366","2":"5/2/2016 11:59:59 PM","3":"52.6","4":"115.9631","5":"22","6":"22.65","7":"TRUE","8":"1.462234e+12"},{"1":"1503960366","2":"5/3/2016 11:59:59 PM","3":"52.6","4":"115.9631","5":"NA","6":"22.65","7":"TRUE","8":"1.462320e+12"},{"1":"1927972279","2":"4/13/2016 1:08:52 AM","3":"133.5","4":"294.3171","5":"NA","6":"47.54","7":"FALSE","8":"1.460510e+12"},{"1":"2873212765","2":"4/21/2016 11:59:59 PM","3":"56.7","4":"125.0021","5":"NA","6":"21.45","7":"TRUE","8":"1.461283e+12"},{"1":"2873212765","2":"5/12/2016 11:59:59 PM","3":"57.3","4":"126.3249","5":"NA","6":"21.69","7":"TRUE","8":"1.463098e+12"},{"1":"4319703577","2":"4/17/2016 11:59:59 PM","3":"72.4","4":"159.6147","5":"25","6":"27.45","7":"TRUE","8":"1.460938e+12"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
 
 </span> <a class="anchor" id="Check_summary4_4"></a>
 
@@ -532,14 +458,6 @@ Verification of data cleaning in sleep_day datafareme
   head(sleep_day)
 ```
 
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["activity_date"],"name":[2],"type":["date"],"align":["right"]},{"label":["total_sleep_records"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["total_minutes_asleep"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["total_time_in_bed"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["timeday"],"name":[6],"type":["chr"],"align":["left"]},{"label":["day_week"],"name":[7],"type":["chr"],"align":["left"]}],"data":[{"1":"1503960366","2":"2016-04-12","3":"1","4":"327","5":"346","6":"00:00:00","7":"Tuesday"},{"1":"1503960366","2":"2016-04-13","3":"2","4":"384","5":"407","6":"00:00:00","7":"Wednesday"},{"1":"1503960366","2":"2016-04-15","3":"1","4":"412","5":"442","6":"00:00:00","7":"Friday"},{"1":"1503960366","2":"2016-04-16","3":"2","4":"340","5":"367","6":"00:00:00","7":"Saturday"},{"1":"1503960366","2":"2016-04-17","3":"1","4":"700","5":"712","6":"00:00:00","7":"Sunday"},{"1":"1503960366","2":"2016-04-19","3":"1","4":"304","5":"320","6":"00:00:00","7":"Tuesday"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
 ``` r
   daily_activity <- daily_activity %>% 
     clean_names() %>% 
@@ -548,27 +466,8 @@ Verification of data cleaning in sleep_day datafareme
   head(daily_activity)
 ```
 
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["activity_date"],"name":[2],"type":["date"],"align":["right"]},{"label":["total_steps"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["total_distance"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["tracker_distance"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["logged_activities_distance"],"name":[6],"type":["dbl"],"align":["right"]},{"label":["very_active_distance"],"name":[7],"type":["dbl"],"align":["right"]},{"label":["moderately_active_distance"],"name":[8],"type":["dbl"],"align":["right"]},{"label":["light_active_distance"],"name":[9],"type":["dbl"],"align":["right"]},{"label":["sedentary_active_distance"],"name":[10],"type":["dbl"],"align":["right"]},{"label":["very_active_minutes"],"name":[11],"type":["dbl"],"align":["right"]},{"label":["fairly_active_minutes"],"name":[12],"type":["dbl"],"align":["right"]},{"label":["lightly_active_minutes"],"name":[13],"type":["dbl"],"align":["right"]},{"label":["sedentary_minutes"],"name":[14],"type":["dbl"],"align":["right"]},{"label":["calories"],"name":[15],"type":["dbl"],"align":["right"]},{"label":["day"],"name":[16],"type":["chr"],"align":["left"]}],"data":[{"1":"1503960366","2":"2016-04-12","3":"13162","4":"8.50","5":"8.50","6":"0","7":"1.88","8":"0.55","9":"6.06","10":"0","11":"25","12":"13","13":"328","14":"728","15":"1985","16":"Tuesday"},{"1":"1503960366","2":"2016-04-13","3":"10735","4":"6.97","5":"6.97","6":"0","7":"1.57","8":"0.69","9":"4.71","10":"0","11":"21","12":"19","13":"217","14":"776","15":"1797","16":"Wednesday"},{"1":"1503960366","2":"2016-04-14","3":"10460","4":"6.74","5":"6.74","6":"0","7":"2.44","8":"0.40","9":"3.91","10":"0","11":"30","12":"11","13":"181","14":"1218","15":"1776","16":"Thursday"},{"1":"1503960366","2":"2016-04-15","3":"9762","4":"6.28","5":"6.28","6":"0","7":"2.14","8":"1.26","9":"2.83","10":"0","11":"29","12":"34","13":"209","14":"726","15":"1745","16":"Friday"},{"1":"1503960366","2":"2016-04-16","3":"12669","4":"8.16","5":"8.16","6":"0","7":"2.71","8":"0.41","9":"5.04","10":"0","11":"36","12":"10","13":"221","14":"773","15":"1863","16":"Saturday"},{"1":"1503960366","2":"2016-04-17","3":"9705","4":"6.48","5":"6.48","6":"0","7":"3.19","8":"0.78","9":"2.51","10":"0","11":"38","12":"20","13":"164","14":"539","15":"1728","16":"Sunday"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
 ``` r
 head(heart_rate)
-```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["Id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["Time"],"name":[2],"type":["chr"],"align":["left"]},{"label":["Value"],"name":[3],"type":["dbl"],"align":["right"]}],"data":[{"1":"2022484408","2":"4/12/2016 7:21:00 AM","3":"97"},{"1":"2022484408","2":"4/12/2016 7:21:05 AM","3":"102"},{"1":"2022484408","2":"4/12/2016 7:21:10 AM","3":"105"},{"1":"2022484408","2":"4/12/2016 7:21:20 AM","3":"103"},{"1":"2022484408","2":"4/12/2016 7:21:25 AM","3":"101"},{"1":"2022484408","2":"4/12/2016 7:22:05 AM","3":"95"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
-``` r
   heart_rate <- heart_rate %>% 
     clean_names() %>%
     mutate(timeday = (format(strptime(time,"%m/%d/%Y %I:%M:%S %p"),"%H:%M:%S"))) %>% 
@@ -578,27 +477,8 @@ head(heart_rate)
   head(heart_rate)
 ```
 
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["activity_date"],"name":[2],"type":["date"],"align":["right"]},{"label":["value"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["timeday"],"name":[4],"type":["chr"],"align":["left"]}],"data":[{"1":"2022484408","2":"2016-04-12","3":"97","4":"07:21:00"},{"1":"2022484408","2":"2016-04-12","3":"102","4":"07:21:05"},{"1":"2022484408","2":"2016-04-12","3":"105","4":"07:21:10"},{"1":"2022484408","2":"2016-04-12","3":"103","4":"07:21:20"},{"1":"2022484408","2":"2016-04-12","3":"101","4":"07:21:25"},{"1":"2022484408","2":"2016-04-12","3":"95","4":"07:22:05"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
 ``` r
   head(hourly_calories)
-```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["Id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["ActivityHour"],"name":[2],"type":["chr"],"align":["left"]},{"label":["Calories"],"name":[3],"type":["dbl"],"align":["right"]}],"data":[{"1":"1503960366","2":"4/12/2016 12:00:00 AM","3":"81"},{"1":"1503960366","2":"4/12/2016 1:00:00 AM","3":"61"},{"1":"1503960366","2":"4/12/2016 2:00:00 AM","3":"59"},{"1":"1503960366","2":"4/12/2016 3:00:00 AM","3":"47"},{"1":"1503960366","2":"4/12/2016 4:00:00 AM","3":"48"},{"1":"1503960366","2":"4/12/2016 5:00:00 AM","3":"48"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
-``` r
   hourly_calories <- hourly_calories %>%
     clean_names() %>% 
       mutate(timeday = (format(strptime(activity_hour,"%m/%d/%Y %I:%M:%S %p"),"%H:%M:%S"))) %>% 
@@ -609,27 +489,9 @@ head(heart_rate)
   head(hourly_calories)
 ```
 
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["activity_date"],"name":[2],"type":["date"],"align":["right"]},{"label":["calories"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["timeday"],"name":[4],"type":["chr"],"align":["left"]}],"data":[{"1":"1503960366","2":"2016-04-12","3":"81","4":"00:00:00"},{"1":"1503960366","2":"2016-04-12","3":"61","4":"01:00:00"},{"1":"1503960366","2":"2016-04-12","3":"59","4":"02:00:00"},{"1":"1503960366","2":"2016-04-12","3":"47","4":"03:00:00"},{"1":"1503960366","2":"2016-04-12","3":"48","4":"04:00:00"},{"1":"1503960366","2":"2016-04-12","3":"48","4":"05:00:00"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
 ``` r
   head(hourly_intensities)
-```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["Id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["ActivityHour"],"name":[2],"type":["chr"],"align":["left"]},{"label":["TotalIntensity"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["AverageIntensity"],"name":[4],"type":["dbl"],"align":["right"]}],"data":[{"1":"1503960366","2":"4/12/2016 12:00:00 AM","3":"20","4":"0.333333"},{"1":"1503960366","2":"4/12/2016 1:00:00 AM","3":"8","4":"0.133333"},{"1":"1503960366","2":"4/12/2016 2:00:00 AM","3":"7","4":"0.116667"},{"1":"1503960366","2":"4/12/2016 3:00:00 AM","3":"0","4":"0.000000"},{"1":"1503960366","2":"4/12/2016 4:00:00 AM","3":"0","4":"0.000000"},{"1":"1503960366","2":"4/12/2016 5:00:00 AM","3":"0","4":"0.000000"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
-``` r
+  
   hourly_intensities <- hourly_intensities %>% 
     clean_names() %>% 
     mutate(timeday = (format(strptime(activity_hour,"%m/%d/%Y %I:%M:%S %p"),"%H:%M:%S"))) %>% 
@@ -640,27 +502,8 @@ head(heart_rate)
   head(hourly_intensities)
 ```
 
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["activity_date"],"name":[2],"type":["date"],"align":["right"]},{"label":["total_intensity"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["average_intensity"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["timeday"],"name":[5],"type":["chr"],"align":["left"]}],"data":[{"1":"1503960366","2":"2016-04-12","3":"20","4":"0.333333","5":"00:00:00"},{"1":"1503960366","2":"2016-04-12","3":"8","4":"0.133333","5":"01:00:00"},{"1":"1503960366","2":"2016-04-12","3":"7","4":"0.116667","5":"02:00:00"},{"1":"1503960366","2":"2016-04-12","3":"0","4":"0.000000","5":"03:00:00"},{"1":"1503960366","2":"2016-04-12","3":"0","4":"0.000000","5":"04:00:00"},{"1":"1503960366","2":"2016-04-12","3":"0","4":"0.000000","5":"05:00:00"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
 ``` r
   head(hourly_steps) 
-```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["Id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["ActivityHour"],"name":[2],"type":["chr"],"align":["left"]},{"label":["StepTotal"],"name":[3],"type":["dbl"],"align":["right"]}],"data":[{"1":"1503960366","2":"4/12/2016 12:00:00 AM","3":"373"},{"1":"1503960366","2":"4/12/2016 1:00:00 AM","3":"160"},{"1":"1503960366","2":"4/12/2016 2:00:00 AM","3":"151"},{"1":"1503960366","2":"4/12/2016 3:00:00 AM","3":"0"},{"1":"1503960366","2":"4/12/2016 4:00:00 AM","3":"0"},{"1":"1503960366","2":"4/12/2016 5:00:00 AM","3":"0"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
-``` r
   hourly_steps<- hourly_steps %>% 
     clean_names() %>% 
     mutate(timeday = (format(strptime(activity_hour,"%m/%d/%Y %I:%M:%S %p"),"%H:%M:%S"))) %>% 
@@ -671,27 +514,8 @@ head(heart_rate)
   head(hourly_steps)
 ```
 
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["activity_date"],"name":[2],"type":["date"],"align":["right"]},{"label":["step_total"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["timeday"],"name":[4],"type":["chr"],"align":["left"]}],"data":[{"1":"1503960366","2":"2016-04-12","3":"373","4":"00:00:00"},{"1":"1503960366","2":"2016-04-12","3":"160","4":"01:00:00"},{"1":"1503960366","2":"2016-04-12","3":"151","4":"02:00:00"},{"1":"1503960366","2":"2016-04-12","3":"0","4":"03:00:00"},{"1":"1503960366","2":"2016-04-12","3":"0","4":"04:00:00"},{"1":"1503960366","2":"2016-04-12","3":"0","4":"05:00:00"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
 ``` r
   head(weight_log)
-```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["Id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["Date"],"name":[2],"type":["chr"],"align":["left"]},{"label":["WeightKg"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["WeightPounds"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["Fat"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["BMI"],"name":[6],"type":["dbl"],"align":["right"]},{"label":["IsManualReport"],"name":[7],"type":["lgl"],"align":["right"]},{"label":["LogId"],"name":[8],"type":["dbl"],"align":["right"]}],"data":[{"1":"1503960366","2":"5/2/2016 11:59:59 PM","3":"52.6","4":"115.9631","5":"22","6":"22.65","7":"TRUE","8":"1.462234e+12"},{"1":"1503960366","2":"5/3/2016 11:59:59 PM","3":"52.6","4":"115.9631","5":"NA","6":"22.65","7":"TRUE","8":"1.462320e+12"},{"1":"1927972279","2":"4/13/2016 1:08:52 AM","3":"133.5","4":"294.3171","5":"NA","6":"47.54","7":"FALSE","8":"1.460510e+12"},{"1":"2873212765","2":"4/21/2016 11:59:59 PM","3":"56.7","4":"125.0021","5":"NA","6":"21.45","7":"TRUE","8":"1.461283e+12"},{"1":"2873212765","2":"5/12/2016 11:59:59 PM","3":"57.3","4":"126.3249","5":"NA","6":"21.69","7":"TRUE","8":"1.463098e+12"},{"1":"4319703577","2":"4/17/2016 11:59:59 PM","3":"72.4","4":"159.6147","5":"25","6":"27.45","7":"TRUE","8":"1.460938e+12"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
-``` r
   weight_log<- weight_log %>% 
     clean_names() %>% 
     mutate(timeday = (format(strptime(date,"%m/%d/%Y %I:%M:%S %p"),"%H:%M:%S"))) %>% 
@@ -700,14 +524,6 @@ head(heart_rate)
   
   head(weight_log)
 ```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["activity_date"],"name":[2],"type":["date"],"align":["right"]},{"label":["weight_kg"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["weight_pounds"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["fat"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["bmi"],"name":[6],"type":["dbl"],"align":["right"]},{"label":["is_manual_report"],"name":[7],"type":["lgl"],"align":["right"]},{"label":["log_id"],"name":[8],"type":["dbl"],"align":["right"]},{"label":["timeday"],"name":[9],"type":["chr"],"align":["left"]}],"data":[{"1":"1503960366","2":"2016-05-02","3":"52.6","4":"115.9631","5":"22","6":"22.65","7":"TRUE","8":"1.462234e+12","9":"23:59:59"},{"1":"1503960366","2":"2016-05-03","3":"52.6","4":"115.9631","5":"NA","6":"22.65","7":"TRUE","8":"1.462320e+12","9":"23:59:59"},{"1":"1927972279","2":"2016-04-13","3":"133.5","4":"294.3171","5":"NA","6":"47.54","7":"FALSE","8":"1.460510e+12","9":"01:08:52"},{"1":"2873212765","2":"2016-04-21","3":"56.7","4":"125.0021","5":"NA","6":"21.45","7":"TRUE","8":"1.461283e+12","9":"23:59:59"},{"1":"2873212765","2":"2016-05-12","3":"57.3","4":"126.3249","5":"NA","6":"21.69","7":"TRUE","8":"1.463098e+12","9":"23:59:59"},{"1":"4319703577","2":"2016-04-17","3":"72.4","4":"159.6147","5":"25","6":"27.45","7":"TRUE","8":"1.460938e+12","9":"23:59:59"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
 
 ``` r
   calories_minute<-calories_minute %>% 
@@ -722,14 +538,6 @@ head(heart_rate)
   head(calories_minute)
 ```
 
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["calories"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["timeday"],"name":[3],"type":["chr"],"align":["left"]},{"label":["activity_date"],"name":[4],"type":["date"],"align":["right"]}],"data":[{"1":"1503960366","2":"0.7865","3":"00:00:00","4":"2016-04-12","_rn_":"1"},{"1":"1503960366","2":"0.7865","3":"00:01:00","4":"2016-04-12","_rn_":"2"},{"1":"1503960366","2":"0.7865","3":"00:02:00","4":"2016-04-12","_rn_":"3"},{"1":"1503960366","2":"0.7865","3":"00:03:00","4":"2016-04-12","_rn_":"4"},{"1":"1503960366","2":"0.7865","3":"00:04:00","4":"2016-04-12","_rn_":"5"},{"1":"1503960366","2":"0.9438","3":"00:05:00","4":"2016-04-12","_rn_":"6"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
 ``` r
   intensities_minute<-intensities_minute %>% 
     clean_names() %>% 
@@ -741,14 +549,6 @@ head(heart_rate)
   
   head(intensities_minute)
 ```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["intensity"],"name":[2],"type":["int"],"align":["right"]},{"label":["timeday"],"name":[3],"type":["chr"],"align":["left"]},{"label":["activity_date"],"name":[4],"type":["date"],"align":["right"]}],"data":[{"1":"1503960366","2":"0","3":"00:00:00","4":"2016-04-12","_rn_":"1"},{"1":"1503960366","2":"0","3":"00:01:00","4":"2016-04-12","_rn_":"2"},{"1":"1503960366","2":"0","3":"00:02:00","4":"2016-04-12","_rn_":"3"},{"1":"1503960366","2":"0","3":"00:03:00","4":"2016-04-12","_rn_":"4"},{"1":"1503960366","2":"0","3":"00:04:00","4":"2016-04-12","_rn_":"5"},{"1":"1503960366","2":"0","3":"00:05:00","4":"2016-04-12","_rn_":"6"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
 
 </span> <a class="anchor" id="checking_format4_7"></a>
 
@@ -885,17 +685,7 @@ names” for farther using of data.
     left_join(hourly_steps, by = c("id", "activity_date","timeday"))
   
   head(hourly_activity)  
-```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["activity_date"],"name":[2],"type":["date"],"align":["right"]},{"label":["calories"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["timeday"],"name":[4],"type":["chr"],"align":["left"]},{"label":["total_intensity"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["average_intensity"],"name":[6],"type":["dbl"],"align":["right"]},{"label":["step_total"],"name":[7],"type":["dbl"],"align":["right"]}],"data":[{"1":"1503960366","2":"2016-04-12","3":"81","4":"00:00:00","5":"20","6":"0.333333","7":"373"},{"1":"1503960366","2":"2016-04-12","3":"61","4":"01:00:00","5":"8","6":"0.133333","7":"160"},{"1":"1503960366","2":"2016-04-12","3":"59","4":"02:00:00","5":"7","6":"0.116667","7":"151"},{"1":"1503960366","2":"2016-04-12","3":"47","4":"03:00:00","5":"0","6":"0.000000","7":"0"},{"1":"1503960366","2":"2016-04-12","3":"48","4":"04:00:00","5":"0","6":"0.000000","7":"0"},{"1":"1503960366","2":"2016-04-12","3":"48","4":"05:00:00","5":"0","6":"0.000000","7":"0"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
-``` r
+  
   summary(hourly_activity) 
 ```
 
@@ -983,17 +773,7 @@ Sedentary ,lightly, fairly and very active users.
   #Check result of datafarame
   
   head(daily_activity_groups)
-```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["mean_steps"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["usag"],"name":[3],"type":["chr"],"align":["left"]}],"data":[{"1":"1503960366","2":"12116.742","3":"very_active"},{"1":"1624580081","2":"5743.903","3":"lightly_active"},{"1":"1644430081","2":"7282.967","3":"lightly_active"},{"1":"1844505072","2":"2580.065","3":"sedentary"},{"1":"1927972279","2":"916.129","3":"sedentary"},{"1":"2022484408","2":"11370.645","3":"very_active"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
-``` r
+  
   #joining dataframe with daily activity
   
   daily_activity_steps_group <- daily_activity %>% 
@@ -1015,17 +795,7 @@ we check whats distribution of users in dataset
   #checking new dataframe
   
   head(distribution_usage)
-```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["mean_steps"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["usag"],"name":[3],"type":["chr"],"align":["left"]}],"data":[{"1":"1503960366","2":"12116.742","3":"very_active"},{"1":"1624580081","2":"5743.903","3":"lightly_active"},{"1":"1644430081","2":"7282.967","3":"lightly_active"},{"1":"1844505072","2":"2580.065","3":"sedentary"},{"1":"1927972279","2":"916.129","3":"sedentary"},{"1":"2022484408","2":"11370.645","3":"very_active"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
-``` r
+  
   #making summary of distribution
   
   distribution_usage_percent <- daily_activity %>% 
@@ -1037,17 +807,7 @@ we check whats distribution of users in dataset
     mutate(perce = scales::percent(perce))
   
   head(distribution_usage_percent)
-```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["usag"],"name":[1],"type":["chr"],"align":["left"]},{"label":["participants"],"name":[2],"type":["int"],"align":["right"]},{"label":["perce"],"name":[3],"type":["chr"],"align":["left"]}],"data":[{"1":"very_active","2":"7","3":"21.2%"},{"1":"sedentary","2":"8","3":"24.2%"},{"1":"fairly_active","2":"9","3":"27.3%"},{"1":"lightly_active","2":"9","3":"27.3%"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
-``` r
+  
   # join usage group to daily activity
   
   daily_activity<-daily_activity %>% 
@@ -1195,17 +955,6 @@ Dataframe such as total steps VS calories
 
 ``` r
   head(daily_activity)
-```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["activity_date"],"name":[2],"type":["date"],"align":["right"]},{"label":["total_steps"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["total_distance"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["tracker_distance"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["logged_activities_distance"],"name":[6],"type":["dbl"],"align":["right"]},{"label":["very_active_distance"],"name":[7],"type":["dbl"],"align":["right"]},{"label":["moderately_active_distance"],"name":[8],"type":["dbl"],"align":["right"]},{"label":["light_active_distance"],"name":[9],"type":["dbl"],"align":["right"]},{"label":["sedentary_active_distance"],"name":[10],"type":["dbl"],"align":["right"]},{"label":["very_active_minutes"],"name":[11],"type":["dbl"],"align":["right"]},{"label":["fairly_active_minutes"],"name":[12],"type":["dbl"],"align":["right"]},{"label":["lightly_active_minutes"],"name":[13],"type":["dbl"],"align":["right"]},{"label":["sedentary_minutes"],"name":[14],"type":["dbl"],"align":["right"]},{"label":["calories"],"name":[15],"type":["dbl"],"align":["right"]},{"label":["day"],"name":[16],"type":["chr"],"align":["left"]},{"label":["mean_steps"],"name":[17],"type":["dbl"],"align":["right"]},{"label":["usag"],"name":[18],"type":["chr"],"align":["left"]}],"data":[{"1":"1503960366","2":"2016-04-12","3":"13162","4":"8.50","5":"8.50","6":"0","7":"1.88","8":"0.55","9":"6.06","10":"0","11":"25","12":"13","13":"328","14":"728","15":"1985","16":"Tuesday","17":"12116.74","18":"very_active"},{"1":"1503960366","2":"2016-04-13","3":"10735","4":"6.97","5":"6.97","6":"0","7":"1.57","8":"0.69","9":"4.71","10":"0","11":"21","12":"19","13":"217","14":"776","15":"1797","16":"Wednesday","17":"12116.74","18":"very_active"},{"1":"1503960366","2":"2016-04-14","3":"10460","4":"6.74","5":"6.74","6":"0","7":"2.44","8":"0.40","9":"3.91","10":"0","11":"30","12":"11","13":"181","14":"1218","15":"1776","16":"Thursday","17":"12116.74","18":"very_active"},{"1":"1503960366","2":"2016-04-15","3":"9762","4":"6.28","5":"6.28","6":"0","7":"2.14","8":"1.26","9":"2.83","10":"0","11":"29","12":"34","13":"209","14":"726","15":"1745","16":"Friday","17":"12116.74","18":"very_active"},{"1":"1503960366","2":"2016-04-16","3":"12669","4":"8.16","5":"8.16","6":"0","7":"2.71","8":"0.41","9":"5.04","10":"0","11":"36","12":"10","13":"221","14":"773","15":"1863","16":"Saturday","17":"12116.74","18":"very_active"},{"1":"1503960366","2":"2016-04-17","3":"9705","4":"6.48","5":"6.48","6":"0","7":"3.19","8":"0.78","9":"2.51","10":"0","11":"38","12":"20","13":"164","14":"539","15":"1728","16":"Sunday","17":"12116.74","18":"very_active"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
-``` r
   ggplot(daily_activity,mapping = aes(x=calories, y=total_steps, color = calories))+
   geom_point()+geom_smooth(method = "loess")+labs(title = "Total steps VS Calories burn",x="Calories Burn")+
   scale_color_gradient(low = "red",high = "blue") + ylab("Total Steps")
@@ -1400,17 +1149,7 @@ can cause of reducing of time sleep or not?
 
 ``` r
   head(activity_sleep)
-```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["activity_date"],"name":[2],"type":["date"],"align":["right"]},{"label":["total_steps"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["total_distance"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["tracker_distance"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["logged_activities_distance"],"name":[6],"type":["dbl"],"align":["right"]},{"label":["very_active_distance"],"name":[7],"type":["dbl"],"align":["right"]},{"label":["moderately_active_distance"],"name":[8],"type":["dbl"],"align":["right"]},{"label":["light_active_distance"],"name":[9],"type":["dbl"],"align":["right"]},{"label":["sedentary_active_distance"],"name":[10],"type":["dbl"],"align":["right"]},{"label":["very_active_minutes"],"name":[11],"type":["dbl"],"align":["right"]},{"label":["fairly_active_minutes"],"name":[12],"type":["dbl"],"align":["right"]},{"label":["lightly_active_minutes"],"name":[13],"type":["dbl"],"align":["right"]},{"label":["sedentary_minutes"],"name":[14],"type":["dbl"],"align":["right"]},{"label":["calories"],"name":[15],"type":["dbl"],"align":["right"]},{"label":["day"],"name":[16],"type":["chr"],"align":["left"]},{"label":["total_sleep_records"],"name":[17],"type":["dbl"],"align":["right"]},{"label":["total_minutes_asleep"],"name":[18],"type":["dbl"],"align":["right"]},{"label":["total_time_in_bed"],"name":[19],"type":["dbl"],"align":["right"]},{"label":["timeday"],"name":[20],"type":["chr"],"align":["left"]},{"label":["day_week"],"name":[21],"type":["chr"],"align":["left"]}],"data":[{"1":"1503960366","2":"2016-04-12","3":"13162","4":"8.50","5":"8.50","6":"0","7":"1.88","8":"0.55","9":"6.06","10":"0","11":"25","12":"13","13":"328","14":"728","15":"1985","16":"Tuesday","17":"1","18":"327","19":"346","20":"00:00:00","21":"Tuesday"},{"1":"1503960366","2":"2016-04-13","3":"10735","4":"6.97","5":"6.97","6":"0","7":"1.57","8":"0.69","9":"4.71","10":"0","11":"21","12":"19","13":"217","14":"776","15":"1797","16":"Wednesday","17":"2","18":"384","19":"407","20":"00:00:00","21":"Wednesday"},{"1":"1503960366","2":"2016-04-15","3":"9762","4":"6.28","5":"6.28","6":"0","7":"2.14","8":"1.26","9":"2.83","10":"0","11":"29","12":"34","13":"209","14":"726","15":"1745","16":"Friday","17":"1","18":"412","19":"442","20":"00:00:00","21":"Friday"},{"1":"1503960366","2":"2016-04-16","3":"12669","4":"8.16","5":"8.16","6":"0","7":"2.71","8":"0.41","9":"5.04","10":"0","11":"36","12":"10","13":"221","14":"773","15":"1863","16":"Saturday","17":"2","18":"340","19":"367","20":"00:00:00","21":"Saturday"},{"1":"1503960366","2":"2016-04-17","3":"9705","4":"6.48","5":"6.48","6":"0","7":"3.19","8":"0.78","9":"2.51","10":"0","11":"38","12":"20","13":"164","14":"539","15":"1728","16":"Sunday","17":"1","18":"700","19":"712","20":"00:00:00","21":"Sunday"},{"1":"1503960366","2":"2016-04-19","3":"15506","4":"9.88","5":"9.88","6":"0","7":"3.53","8":"1.32","9":"5.03","10":"0","11":"50","12":"31","13":"264","14":"775","15":"2035","16":"Tuesday","17":"1","18":"304","19":"320","20":"00:00:00","21":"Tuesday"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
-
-``` r
+  
   ggplot(data=activity_sleep, aes(x=total_minutes_asleep, y=sedentary_minutes)) + 
     geom_point(color='darkblue') + geom_smooth() +
     labs(title="Minutes Asleep vs. Sedentary Minutes")
@@ -1436,14 +1175,6 @@ whats number of records per users.
   
   weight_log_summary
 ```
-
-<div data-pagedtable="false">
-
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["id"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["n"],"name":[2],"type":["int"],"align":["right"]}],"data":[{"1":"1503960366","2":"2"},{"1":"1927972279","2":"1"},{"1":"2873212765","2":"2"},{"1":"4319703577","2":"2"},{"1":"4558609924","2":"5"},{"1":"5577150313","2":"1"},{"1":"6962181067","2":"30"},{"1":"8877689391","2":"24"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-
-</div>
 
 </span> <a class="anchor" id="act-phase"></a>
 
