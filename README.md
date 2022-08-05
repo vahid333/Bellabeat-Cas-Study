@@ -1,4 +1,4 @@
-![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/logo%20bellabeat.png)
+![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/logo bellabeat.png)
 
 -   [1.Introduction](#introduction)
 -   [2.Ask Phase](#ask-phase)
@@ -942,7 +942,7 @@ which data we can using for further analysis in this phase
     plot_histogram(ncol = 3,ggtheme = theme_light())
 ```
 
-![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/figure-markdown_github/unnamed-chunk-25-1.png)
+![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/unnamed-chunk-25-1.png)
 
 base above histogram and summary of data shows average calories burn per
 day around 2000.
@@ -1067,7 +1067,7 @@ we check whats distribution of users in dataset
     guides(fill = guide_legend(title = "usage Type"))
 ```
 
-![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/figure-markdown_github/unnamed-chunk-27-1.png)
+![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/unnamed-chunk-27-1.png)
 
 number users base our classification its seem equal near 25% from each
 type users. its seems we should find solution to engagement more user
@@ -1178,7 +1178,7 @@ for each user.
   users_dis
 ```
 
-![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/figure-markdown_github/unnamed-chunk-28-1.png)
+![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/unnamed-chunk-28-1.png)
 
 as we see in day time activity plot its seems trend in week days as we
 saw its during 16:00 to 19:00 but in Saturdays most of activity of users
@@ -1211,7 +1211,7 @@ Dataframe such as total steps VS calories
   scale_color_gradient(low = "red",high = "blue") + ylab("Total Steps")
 ```
 
-![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/figure-markdown_github/unnamed-chunk-29-1.png)
+![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/unnamed-chunk-29-1.png)
 
 we can see there is positive correlation between steps and calories
 burned.we can use this information in our programming and use this
@@ -1276,7 +1276,7 @@ joining data with calories and intensities per minute dataframe .
     geom_smooth(mapping = aes(x=bpm,y=IPM))+labs(title= "Intensities VS heart beat")
 ```
 
-![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/figure-markdown_github/unnamed-chunk-31-1.png)
+![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/unnamed-chunk-31-1.png)
 
 in this plot as you can see there is strange correlation between
 intensities of activity and heart beat. base this chart we can say if we
@@ -1293,7 +1293,7 @@ insensitive section our users data.
     geom_smooth(mapping = aes(x=bpm,y=CPM))+labs(title="Heartbeat vs calories")
 ```
 
-![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/figure-markdown_github/unnamed-chunk-32-1.png)
+![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/unnamed-chunk-32-1.png)
 
 in this plot we compare relation between heart bet per minute(BPM) and
 calories per minute as you can see for calories burning and base
@@ -1416,7 +1416,7 @@ can cause of reducing of time sleep or not?
     labs(title="Minutes Asleep vs. Sedentary Minutes")
 ```
 
-![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/figure-markdown_github/unnamed-chunk-36-1.png)
+![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/unnamed-chunk-36-1.png)
 as you can see there is some correlation between activity and sleep in
 our dataframe. base dataset and research activity can help to extend
 sleep duration and quality of it.
