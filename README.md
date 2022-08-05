@@ -1310,7 +1310,7 @@ activities.
     geom_smooth(mapping = aes(x=CPM,y=IPM))+labs(title = "Calories Vs intensities")
 ```
 
-![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/figure-markdown_github/unnamed-chunk-33-1.png)
+![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/unnamed-chunk-33-1.png)
 
 in this plot we compare relation of average of calories in every
 intensities and you can see with increase intensities calories you burn
