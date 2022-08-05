@@ -1380,7 +1380,7 @@ classification.
   sleep_day_chart
 ```
 
-![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/figure-markdown_github/unnamed-chunk-35-1.png)
+![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/unnamed-chunk-35-1.png)
 
 as you can see 44% of users have lack of sleep and 46% percent enough
 sleep and 10% users above 8 hours sleep per day.
