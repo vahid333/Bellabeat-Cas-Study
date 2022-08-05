@@ -1,4 +1,4 @@
-![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/logo bellabeat.png)
+![](Google-Capstone-project-Bellabeat-Case-Study-with-R_files/logo%20bellabeat.png)
 
 -   [1.Introduction](#introduction)
 -   [2.Ask Phase](#ask-phase)
